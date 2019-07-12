@@ -1,8 +1,8 @@
 window.onload = () => {
-   let topName = ['the','our'];
-   let secondName = ['volvo','lamborguini'];
-   let thirdName = ['black', 'grey'];
-   let fourthName = ['.org', '.edu'];
+   let topName = ['the','our','me'];
+   let secondName = ['volvo','lamborguini','ferrari'];
+   let thirdName = ['black', 'grey','white'];
+   let fourthName = ['.org', '.edu','com'];
    let result = [];
 
    topName.forEach(function(value,index){
