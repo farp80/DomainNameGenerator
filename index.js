@@ -1,11 +1,11 @@
 window.onload = () => {
-   var topName = ['the','our'];
-   var secondName = ['volvo','lamborguini'];
-   var thirdName = ['black', 'grey'];
-   var fourthName = ['.org', '.edu'];
-   var result = [];
+   let topName = ['the','our'];
+   let secondName = ['volvo','lamborguini'];
+   let thirdName = ['black', 'grey'];
+   let fourthName = ['.org', '.edu'];
+   let result = [];
 
-   var newDomain = topName.forEach(function(value,index){
+   topName.forEach(function(value,index){
       var firstValues = value;
       secondName.forEach(function(value,index){
         var secondCombination = firstValues + value;
